@@ -1,0 +1,7 @@
+{% extends "public/base.html" %}
+
+{% block content %}
+<p>The number you entered is: {{ number }}</p>
+<img src="{{ url_for('static', filename=image) }}" alt="Result image">
+<a class="btn btn-success btn-lg" href="{{ url_for('public.data_entry') }}" role="button">Try Again</a>
+{% endblock %}

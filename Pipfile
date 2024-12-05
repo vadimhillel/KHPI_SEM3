@@ -1,0 +1,91 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+#Main--------------------------------------
+stripe = "~=9.7"
+python-dotenv = "~=1.0"
+#Algos-------------------------------------
+numpy = "*"
+matplotlib = "~=3.8"
+pandas = "~=2.1"
+httpx = "~=0.25"
+asyncio = "~=3.4"
+pyinstaller = "*"
+networkx = "*"
+pygame = "*"
+sympy = "*"
+scikit-learn = "*"
+seaborn = "*"
+matplotlib-venn = "~=0.11"
+graphviz = "~=0.20"
+#--NN--------------------------------------
+tensorflow = "~=2.16"
+#django packages---------------------------
+django = "~=5.0"
+djangorestframework = "~=3.15"
+djangorestframework-simplejwt = "~=5.3"
+django-filter = "~=24.2" 
+gunicorn = "~=22.0"
+celery = {version = "==5.4", extras = ["redis"]}
+#flask packages----------------------------
+flask = "*"
+click = "~=8.1"
+Werkzeug = "~=3.0"
+flask-restful = "*"
+flask-login = "*"
+flask-static-digest = "*"
+# Migrations
+flask-migrate = "*"
+# Database
+Flask-SQLAlchemy = "~=3.1"
+SQLAlchemy = "~=2.0"
+# Forms
+email-validator = '*'
+flask-wtf = "*"
+WTForms = "~=3.2"
+# Other
+flask-caching = "*"
+flask-debugtoolbar = "*"
+flask-bcrypt = "*"
+environs = '*'
+# Deployment
+gevent = "~=24.10"
+supervisor = "~=4.2"
+#Jup Note----------------------------------
+jupyterlab = "~=4.1"
+ipython = "~=8.22"
+#Mysql-------------------------------------
+mysqlclient = "~=2.2"
+pymysql = '*'
+# cookiecutter = "*"
+markdown = "*"
+flask-assets = "*"
+
+[dev-packages]
+#Main--------------------------------------
+pyinputplus = "*"
+requests = "*"
+requests-cache = "*"
+flake8 = "*"
+mock = "*"
+beautifulsoup4 = "*"
+#Crypto------------------------------------
+binance-connector = "*"
+forex-python = "*"
+ccxt = "*"
+#django dev-pack---------------------------
+drf-yasg = "~= 1.21"
+ipykernel = "*"
+#Flask dev-pack----------------------------
+# Testing factory-boy==3.3.1 pytest==8.3.3 pytest-cov==5.0.0 WebTest==3.0.1
+
+[requires]
+python_version = "3.12"
